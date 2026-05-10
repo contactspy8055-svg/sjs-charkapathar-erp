@@ -10,7 +10,7 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 // Configured for Node.js runtime on Vercel (not Cloudflare).
 export default defineConfig({
   tanstackStart: {
-    server: { entry: "server" },
+    start: { entry: "server" },
     runtime: "node",
     spa: {
       enabled: true,
