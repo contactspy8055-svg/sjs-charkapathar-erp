@@ -12,5 +12,8 @@ export default defineConfig({
   tanstackStart: {
     server: { entry: "server" },
     runtime: "node",
+    spa: {
+      enabled: true,
+    },
   },
 });
